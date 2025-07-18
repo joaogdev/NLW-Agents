@@ -52,7 +52,8 @@ NLW/
 ├── index.html
 └── README.md
 ```
-
+## Visualização Do Projeto
+- https://joaogdev.github.io/NLW-Agents/
 
 ## Observações
 
