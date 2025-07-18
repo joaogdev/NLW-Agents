@@ -21,24 +21,21 @@
     <main>
         <section>
             <div>
-            <h2>Assistente De Meta</h2>
+            <h2 class="title">Assistente De Meta</h2>
             <p>Pergunte sobre estratégias, build e dicas para seus jogos!</p>
 
-            <form>
-                <input type="password" placeholder="Informe a API KEY Do Gemini" required>
+            <form id="form">
+                <input id="apiKey" type="password" placeholder="Informe a API KEY Do Gemini" required>
                 
-                <select required>
+                <select id="gameSelect">
                     <option value="">Selecione Um Jogo</option>
                     <option value="Valorant">Valorant</option>
                     <option value="csgo">Counter-Strike</option>
                     <option value="fortnite">Fortnite</option>
                 </select>
 
-                <input type="text" placeholder="Ex: Pixels Roubados Na Ascent" required>
-
-                <button>
-                    Perguntar
-                </button>
+                <input id="questionInput" type="text" placeholder="Ex: Pixels Roubados Na Ascent" required>
+                <button id="askButton">Perguntar</button>
 
             </form>
 
@@ -51,5 +48,7 @@
             </div>
         </section>
     </main>
+     <script src="https://unpkg.com/showdown/dist/showdown.min.js"></script>
+    <script src="./js/script.js"></script>
 </body>
 </html>
